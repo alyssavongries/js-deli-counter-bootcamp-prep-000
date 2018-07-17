@@ -1,7 +1,7 @@
 var katzDeli = []
 
 function takeANumber(deliLine, person) {
-  deliLine = [...deliLine, person]
+  deliLine.push(person)
   var place = deliLine.length 
   console.log (`Welcome, ${person}. You are number ${place} in line.`)
 }
